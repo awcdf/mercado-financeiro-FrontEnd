@@ -1,0 +1,6 @@
+<div *ngIf="preco && preco.ticker">
+  <h2>{{ preco.ticker }}</h2>
+  <p>💰 Preço: R$ {{ preco.preco }}</p>
+  <p>📈 Variação: {{ preco.variacao }}</p>
+  <p>🔗 Fonte: {{ preco.fonte }}</p>
+</div>
